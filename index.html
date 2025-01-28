@@ -34,6 +34,8 @@
               clifford: "#da373d",
               "bike-primary": "#E76F51",
               "bike-primary-bg": "rgba(231, 11, 81, 0.1)",
+              "text-description": "#6C6C6C",
+              "read-more": "#23A6F0",
             },
           },
         },
@@ -224,7 +226,7 @@
       <section></section>
 
       <!-- Latest news section -->
-      <section class="md:container mx-auto my-24">
+      <section class="my-24">
         <h2 class="text-5xl font-bold text-center">Latest News</h2>
         <!-- card -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-2">
@@ -296,11 +298,167 @@
           </div>
         </div>
       </section>
+
       <!-- Client's review section -->
-      <section></section>
+      <section class="my-24">
+        <h2 class="text-5xl font-bold text-center">
+          Happy <span class="text-bike-primary">Clients says</span>
+        </h2>
+        <!-- Clients cards -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-16 my-16"
+        >
+          <!-- card-1 -->
+          <div
+            class="text-center border space-y-4 w-screen-md lg:max-w-lg p-8 rounded-2xl shadow-lg"
+          >
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="./images/others/user-1.png" />
+              </div>
+            </div>
+            <p class="text-text-description">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+            <div class="text-read-more">
+              <a href="">Read More</a>
+            </div>
+            <h4 class="font-bold">Banker</h4>
+          </div>
+
+          <!-- card-2 -->
+          <div
+            class="text-center border space-y-4 w-screen-md lg:max-w-lg p-8 rounded-2xl shadow-lg"
+          >
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="./images/others/user-2.png" />
+              </div>
+            </div>
+            <p class="text-text-description">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+            <div class="text-read-more">
+              <a href="">Read More</a>
+            </div>
+            <h4 class="font-bold">Banker</h4>
+          </div>
+
+          <!-- card-3 -->
+          <div
+            class="text-center border space-y-4 md:max-w-screen-md lg:max-w-lg p-8 rounded-2xl shadow-lg"
+          >
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="./images/others/user-3.png" />
+              </div>
+            </div>
+            <p class="text-text-description">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+            <div class="text-read-more">
+              <a href="">Read More</a>
+            </div>
+            <h4 class="font-bold">Banker</h4>
+          </div>
+        </div>
+      </section>
 
       <!-- Question answer section -->
-      <section class="md:container mx-auto my-24">
+      <section class="my-24">
         <h2 class="text-5xl font-bold text-center">
           Frequently Asked <span class="text-bike-primary">Questions</span>
         </h2>
@@ -387,3 +545,5 @@
     <footer></footer>
   </body>
 </html>
+
+<!-- todo: Featured bike section, Footer section -->
