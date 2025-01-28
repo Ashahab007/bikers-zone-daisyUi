@@ -25,15 +25,28 @@
         font-style: normal;
       }
     </style>
+    <!-- custom color add from tailwind css -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "bike-primary": "#E76F51",
+            },
+          },
+        },
+      };
+    </script>
     <title>Biker Zones</title>
   </head>
   <body class="font-poppins">
     <!-- Header Section -->
     <header>
       <!-- nav section -->
-      <nav>
+      <nav class="container mx-auto">
         <div class="navbar bg-base-100">
-          <div class="navbar-start">
+          <div class="grow">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
@@ -63,7 +76,7 @@
                 </ul>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl">Biker Zone</a>
+            <a class="text-xl font-bold">Biker Zone</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -73,8 +86,8 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
-            <a class="btn btn-error">Login</a>
+          <div class="">
+            <a class="btn bg-bike-primary text-white">Login</a>
           </div>
         </div>
       </nav>
